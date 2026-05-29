@@ -122,7 +122,7 @@ questions = [
     ("🤖", "What AI and ML tools does Vishal know?"),
     ("✅", "Is Vishal a strong candidate for Data Science or AI roles?"),
     ("🚀", "Should I hire Vishal?"),
-    ("🌍", "Is Vishal open to remote work?"),
+    ("📩", "How do I connect with Vishal?"),
 ]
 
 selected_question = None
@@ -145,12 +145,21 @@ for msg in st.session_state.messages:
 # Input
 query = st.chat_input("Or type your own question about Vishal...") or selected_question
 
+HARDCODED = {
+    "how do i connect with vishal?": "You can reach Vishal directly at **imvishalreddy@gmail.com** or send him a message on **[LinkedIn](https://linkedin.com/in/your-linkedin-here)**. He is actively looking for new opportunities and responds quickly."
+}
+
 if query:
     st.session_state.messages.append({"role": "user", "content": query})
     with st.chat_message("user"):
         st.write(query)
     with st.chat_message("assistant"):
-        with st.spinner("Thinking..."):
-            answer = chain.invoke(query)
-            st.write(answer)
-            st.session_state.messages.append({"role": "assistant", "content": answer})
+        hardcoded_answer = HARDCODED.get(query.strip().lower())
+        if hardcoded_answer:
+            st.markdown(hardcoded_answer)
+            st.session_state.messages.append({"role": "assistant", "content": hardcoded_answer})
+        else:
+            with st.spinner("Thinking..."):
+                answer = chain.invoke(query)
+                st.write(answer)
+                st.session_state.messages.append({"role": "assistant", "content": answer})
