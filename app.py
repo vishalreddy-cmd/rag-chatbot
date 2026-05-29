@@ -7,11 +7,28 @@ from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnablePassthrough
+from langchain_core.runnables import RunnablePassthrough    
 
-st.set_page_config(page_title="RAG Chatbot", page_icon="🤖")
-st.title("🤖 RAG Chatbot — LLaMA 3.1 + FAISS")
-st.markdown("Ask anything about the loaded document.")
+st.set_page_config(page_title="Ask Vishal's AI", page_icon="🤖")
+st.title("🤖 Ask Vishal's AI — Powered by LLaMA 3.1 + RAG")
+st.markdown("Ask me anything about Vishal's experience, skills, and projects.")
+
+# Predefined question buttons
+st.markdown("#### Quick Questions")
+questions = [
+    "Should I hire Vishal?",
+    "What is Vishal's most impressive project?",
+    "Does Vishal know machine learning?",
+    "Where has Vishal worked?",
+    "What AI tools does Vishal know?",
+    "Is Vishal open to remote work?"
+]
+
+cols = st.columns(3)
+selected_question = None
+for i, q in enumerate(questions):
+    if cols[i % 3].button(q):
+        selected_question = q
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "your-actual-key-here")
 if not GROQ_API_KEY or GROQ_API_KEY == "your-actual-key-here":
@@ -72,6 +89,20 @@ for msg in st.session_state.messages:
         st.write(msg["content"])
 
 query = st.chat_input("Ask a question about the document...")
+
+if query:
+    st.session_state.messages.append({"role": "user", "content": query})
+    with st.chat_message("user"):
+        st.write(query)
+
+    with st.chat_message("assistant"):
+        with st.spinner("Thinking..."):
+            answer = chain.invoke(query)
+            st.write(answer)
+            st.session_state.messages.append({"role": "assistant", "content": answer})
+
+# Handle both typed and clicked questions
+query = st.chat_input("Ask anything about Vishal...") or selected_question
 
 if query:
     st.session_state.messages.append({"role": "user", "content": query})
