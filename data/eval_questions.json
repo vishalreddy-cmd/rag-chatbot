@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What is Vishal's current job title?",
+        "expected": "Senior Data Analyst"
+    },
+    {
+        "question": "Where does Vishal work?",
+        "expected": "FedEx"
+    },
+    {
+        "question": "What LLM did Vishal use?",
+        "expected": "LLaMA 3.1"
+    },
+    {
+        "question": "What vector database did Vishal use?",
+        "expected": "FAISS"
+    },
+    {
+        "question": "What is Vishal's F1 score on the RAG chatbot?",
+        "expected": "0.70"
+    },
+    {
+        "question": "What framework did Vishal use to build the chatbot?",
+        "expected": "LangChain"
+    },
+    {
+        "question": "What roles is Vishal looking for?",
+        "expected": "Data Science and AI roles"
+    },
+    {
+        "question": "What is Vishal's primary programming language?",
+        "expected": "SQL"
+    },
+    {
+        "question": "What platform does Vishal use for databases?",
+        "expected": "Databricks"
+    },
+    {
+        "question": "How many years of experience does Vishal have at FedEx?",
+        "expected": "2 years"
+    }
+]

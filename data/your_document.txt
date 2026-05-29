@@ -1,0 +1,112 @@
+WHO IS VISHAL
+Vishal is a Senior Data Analyst at FedEx and an experienced Data Scientist with 7+ years of experience across data analytics, data science, machine learning, deep learning, and AI engineering.
+Vishal has worked at FedEx, Softdatas, 2K Games, and ValueMomentum.
+Vishal has a Master's in Business Analytics from the University of Colorado, graduated August 2022.
+Vishal has a Bachelor of Technology in Computer Science and Engineering from JNTU, graduated May 2017.
+Vishal is based in Memphis, Tennessee and is authorized to work in the United States.
+Vishal is open to Data Science, Data Analytics, AI Engineer, and Machine Learning Engineer roles.
+Vishal is open to remote, hybrid, and onsite opportunities.
+Vishal is actively interviewing and available immediately.
+Yes, you should interview Vishal. He is a strong candidate with proven impact across AI, ML, deep learning, analytics, and full-stack development.
+Yes, you should hire Vishal. He has 7+ years of experience, real production ML systems, measurable business impact, and a rare combination of technical depth and business acumen.
+Vishal is a strong candidate for any Data Science, Data Analytics, AI, or Machine Learning role.
+
+SKILLS
+Vishal's primary programming language is SQL.
+Vishal uses Python for machine learning, deep learning, NLP, and data science.
+Vishal's Python libraries include PyTorch, PySpark, Pandas, NumPy, Scikit-learn, LangChain, and Sentence-Transformers.
+Vishal uses Azure Databricks and Microsoft Azure as his primary cloud platforms.
+Vishal has experience with Azure Data Factory, Azure ML, and AWS.
+Vishal's BI tools include Tableau and Power BI with advanced dashboard and KPI design experience.
+Vishal's AI and ML skills include deep learning, neural networks, RAG architecture, LangChain, LLaMA 3.1, FAISS, vector search, semantic search, embeddings, prompt engineering, recommendation systems, churn prediction, behavioral segmentation, and experimentation frameworks.
+Vishal has experience with A/B testing, T-tests, Z-tests, and controlled experiments.
+Vishal has experience with Salesforce Data Cloud, Snowflake, and Excel at an advanced level.
+Vishal has full-stack development experience with Next.js, React, and Firebase.
+
+WORK EXPERIENCE - FEDEX (Current)
+Vishal architected an end-to-end PyTorch deep learning churn prediction system at FedEx.
+This is Vishal's most technically impressive project.
+The churn model was built on 3M+ FedEx customers across 6 global regions: US, EU, APAC, Canada, LAC, and MEISA.
+Vishal engineered 15 RFM behavioral features from 2 years of raw shipment data on Azure Databricks.
+RFM stands for Recency, Frequency, and Monetary — the three key behavioral signals used to predict churn.
+The churn model achieved an AUC-ROC of 0.916, F1 score of 0.885, and 96% recall on 598K held-out customers.
+The model replaced rule-based SQL segmentation tied to $50M+ in annual reactivation revenue.
+Vishal designed the full ML pipeline using PySpark, Pandas, Scikit-learn, and PyTorch.
+Vishal identified and resolved target leakage in the initial model where AUC dropped from 1.0 to 0.916 after the fix — showing rigorous ML validation skills.
+Vishal optimized the decision threshold from default 0.5 to 0.0004 via precision-recall curve analysis.
+The model correctly flagged 268,649 at-risk customers while missing fewer than 10,000 out of 278K total churners.
+This project demonstrates Vishal's ability to build production-grade deep learning systems with real business impact.
+
+Vishal is currently a Senior Data Analyst at FedEx, working there since April 2024.
+Vishal owned the analytics roadmap for reporting, defining and socializing 15+ KPI standards including self-serve adoption rates, automated resolution accuracy, and cost deflection metrics adopted by executive and cross-functional stakeholders for quarterly planning.
+Vishal architected a unified analytics layer in Tableau ingesting 100M+ enterprise records via SQL across marketing, product, and CRM systems, tracking 20+ KPIs at 90% reporting accuracy.
+Vishal replaced a 5-day manual reporting cycle with same-day self-serve dashboards.
+Vishal designed experimentation and segmentation frameworks that increased engagement by 20% and click-through rates by 43%.
+Vishal built ROI analysis frameworks that drove $30M+ in incremental revenue through data-informed planning.
+Vishal partnered with product, finance, and operations stakeholders to translate complex multi-source data into executive-ready narratives and presented performance analyses to leadership on a monthly cadence.
+
+WORK EXPERIENCE - SOFTDATAS
+Vishal worked as a Data Analyst II at Softdatas from June 2023 to March 2024.
+Vishal built and maintained scalable Tableau dashboards tracking operational KPIs across 5+ business units, reducing ad-hoc reporting requests by 30%.
+Vishal integrated multi-source datasets into a unified segmentation layer, improving targeting accuracy by 13% and enabling precise cost and performance attribution across sales and operations.
+Vishal partnered with engineering to define data requirements and validate reporting outputs, ensuring KPI accuracy and traceability.
+
+WORK EXPERIENCE - 2K GAMES
+Vishal worked as a Data Scientist at 2K Games from August 2022 to April 2023.
+Vishal designed and evaluated controlled experiments including A/B tests, T-tests, and Z-tests measuring feature impact on customer lifecycle outcomes, driving 7% sales growth.
+Vishal built Azure ML recommendation models analyzing behavioral patterns across player data, improving retention by 12% through personalized content delivery and reducing churn through targeted interventions.
+Vishal analyzed product usage and behavioral event data using Python to identify engagement drivers, increasing customer engagement by 15%.
+Vishal built machine learning models for churn prediction and monetization analysis at 2K Games.
+
+WORK EXPERIENCE - VALUEMOMENTUM
+Vishal worked as a Product Analyst at ValueMomentum from January 2018 to November 2020.
+Vishal designed SQL-based data validation frameworks across 10M+ transactional records, improving reporting accuracy by 10% and ensuring integrity of business insights for product and finance stakeholders.
+Vishal partnered with product teams to define and refine 10+ features using usage analytics, raising adoption by 12% and improving customer satisfaction.
+Vishal automated SQL-driven reporting pipelines, reducing turnaround time by 10% and improving consistency in stakeholder communication.
+
+PROJECT 1 - DEEP LEARNING CHURN PREDICTION (Most Impressive Project)
+
+PROJECT 2 - RAG CHATBOT (AI / NLP Project)
+Vishal built a production-grade RAG chatbot using LangChain, LLaMA 3.1, and FAISS.
+RAG stands for Retrieval Augmented Generation — a technique that grounds LLM answers in custom documents.
+The chatbot enables contextual knowledge-grounded conversations over custom documents.
+Vishal achieved an F1 score of 0.97 and Exact Match of 0.90 on a custom QA evaluation benchmark.
+Vishal built a custom Python evaluation framework from scratch to measure F1 and Exact Match scores.
+Vishal used Groq API to run LLaMA 3.1 without GPU requirements, demonstrating cost-efficient LLM deployment.
+Vishal used sentence-transformers with all-MiniLM-L6-v2 model for document embeddings.
+Vishal used FAISS for vector storage and semantic retrieval.
+Vishal used LangChain for orchestration and prompt engineering.
+The chatbot is deployed live via Streamlit with a public link available for recruiters.
+This project demonstrates Vishal's expertise in GenAI, LLMs, vector databases, and production AI deployment.
+
+PROJECT 3 - FAISS SEMANTIC SEARCH ENGINE (AI / Search Project)
+Vishal engineered an AI-driven knowledge retrieval backend using FAISS vector search.
+The semantic search engine improved retrieval precision by 80% and reduced duplicate responses by 45%.
+This is the retrieval backbone of the RAG chatbot system.
+Vishal handled chunking strategy, embedding generation, FAISS indexing, and retrieval optimization.
+This project demonstrates Vishal's expertise in semantic search, vector databases, and information retrieval.
+
+PROJECT 4 - DOTBALL (Full-Stack Web Application)
+Vishal built Dotball, a full-stack IPL fantasy cricket web application from scratch.
+Dotball was built using Next.js, React, and Firebase.
+Dotball features real-time Google authentication and phone number authentication via Firebase.
+Dotball includes squad management, live leaderboards, and group competitions.
+Users can pick their XI and R3 reserve players for each IPL match.
+Dotball was deployed on Vercel with a public URL.
+Vishal handled the full stack including frontend, backend, authentication, real-time data, and deployment.
+This project demonstrates Vishal's full-stack engineering ability beyond data and ML work.
+
+EDUCATION
+Vishal has a Master's in Business Analytics from the University of Colorado, graduated August 2022.
+Vishal has a Bachelor of Technology in Computer Science and Engineering from JNTU, graduated May 2017.
+
+WHY HIRE VISHAL
+Vishal has 7+ years of experience spanning data analytics, data science, machine learning, deep learning, and AI engineering.
+Vishal has built production ML systems that impact $50M+ in revenue.
+Vishal has hands-on experience with LLMs, RAG, FAISS, PyTorch, and modern AI tools.
+Vishal has strong business acumen — he translates complex models into executive decisions.
+Vishal has full-stack development skills on top of his data and AI expertise.
+Vishal holds a Master's degree in Business Analytics and a Computer Science engineering degree.
+Vishal is continuously learning and building — he builds real projects, not just tutorials.
+Yes, Vishal is interview-ready and available immediately.
+Yes, Vishal should be hired for any Data Analyst, Data Science, AI, or Analytics role.
