@@ -146,7 +146,7 @@ for msg in st.session_state.messages:
 query = st.chat_input("Or type your own question about Vishal...") or selected_question
 
 HARDCODED = {
-    "how do i connect with vishal?": "You can reach Vishal directly at **imvishalreddy@gmail.com** or send him a message on **[LinkedIn](https://linkedin.com/in/your-linkedin-here)**. He is actively looking for new opportunities and responds quickly."
+    "how do i connect with vishal?": "You can reach Vishal directly at **imvishalreddy@gmail.com** or send him a message on **[LinkedIn](https://www.linkedin.com/in/vishalreddydonthiri/)**"
 }
 
 if query:
