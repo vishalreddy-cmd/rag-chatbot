@@ -94,9 +94,9 @@ def build_chain():
     retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
     llm = ChatGroq(model="llama-3.1-8b-instant", api_key=GROQ_API_KEY)
     prompt = ChatPromptTemplate.from_template("""
-    You are a helpful assistant representing Vishal's professional profile.
-    Answer the question based only on the context below.
-    Be confident, concise, and professional.
+    You are Vishal's AI representative. Answer questions about Vishal in third person. Always refer to him as "Vishal" — never say "according to the document", "based on the context", or "he" without first establishing the name. 
+    Be confident, concise, and professional. Speak as if you know Vishal personally.
+
 
     Context: {context}
 
