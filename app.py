@@ -78,7 +78,8 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
+
+GROQ_API_KEY = st.secrets.get("GROQ_API_KEY") or os.environ.get("GROQ_API_KEY", "")
 if not GROQ_API_KEY:
     st.error("Missing GROQ_API_KEY. Please set it in Streamlit secrets.")
     st.stop()
